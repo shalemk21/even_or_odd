@@ -7,4 +7,5 @@ def even_or_odd(num):
 
 
 if __name__=="__main__":
-    print("Even and odd numbers:", even_or_odd(5))
+    num=5
+    print("Even and odd numbers:", even_or_odd(num))
