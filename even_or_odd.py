@@ -1,12 +1,11 @@
 def even_or_odd(num):
     if(num%2==0):
-        print("Even")
-        
+        return("Even")
     else:
-        print("Odd")
+        return("Odd")
 
 
 
 if __name__=="__main__":
     
-    even_or_odd(5)
+    print("Even and odd numbers:", even_or_odd(5))
